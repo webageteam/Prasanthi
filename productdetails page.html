@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Agarbatti</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="pdp.css">
+    <script>
+              function myfunction(){
+                     let A= document.getElementById('popup');
+                     A.style.display="block";
+                     }
+              function myFunction() {
+                     let B= document.getElementById('popup');
+                     B.style.display="none";
+              }
+       </script>
+</head>
+<body>
+	<div class="container">
+		
+	  <section class="head">
+	  		<p class="icon"></p>
+	  		<p class="incense">Incense</p>
+	  		<ul class="nav px-2 justify-content-end">
+               <li class="nav-item">
+               <a class="nav-link" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="#">Products</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item">
+               <a class="nav-link" href="#">Contact</a>
+               </li>
+               <i class="fas fa-search"></i>
+               <i class="far fa-user"></i>
+               <i class="fas fa-box" onclick="myfunction()"></i>
+	  		</ul>
+            <div class="popup" id="popup">
+                            <span class="heading">Cart</span>
+                            <span class="close" onclick="myFunction()">&times;</span>
+                            <div class="row">
+                            <div class="col-md-4">
+                            <div class="select1"> 
+                               <img src="incense.jpg">
+                               <p style="top: -3px; right: -3px; font-size: 11px; position: absolute; color: #126656; height: 15px; width: 15px; border-radius: 50%;  background: #B9DBCB; text-align: center;">1</p>
+                            </div>
+                            <div class="select2">
+                              <img src="incense.jpg">
+                              <p style="top: -3px; right: -3px; font-size: 12px; position: absolute; color: #126656; height: 15px; width: 15px; border-radius: 50%;  background: #B9DBCB; text-align: center;">1</p>
+                            </div>
+                          </div>
+                            <div class="col-md-8">
+                              <div class="first">
+                                   <p class="carthead">Rose Incense - 150 Gms.</p>
+                                   <div class="itemselected">
+                                   <p class="qua"><i class="fas fa-minus-circle" style="opacity: 30%;"></i><span style="padding:0 5px">1</span><i class="fas fa-plus-circle"></i></p>
+                                   <p class="item"><span>1 item selected.</span></p>
+                                   <p class="dollar">$250</p>
+                                   </div>
+                                   </div>
+                                   <div class="second">
+                                   <p class="carthead">Rose Incense - 150 Gms.</p>
+                                   <div class="itemselected">
+                                   <p class="qua"><i class="fas fa-minus-circle" style="opacity: 30%;"></i><span style="padding:0 5px">1</span><i class="fas fa-plus-circle"></i></p>
+                                   <p class="item"><span>1 item selected.</span></p>
+                                   <p class="dollar">$150</p>
+                                   </div>
+                                   </div>
+                            </div>
+                            <p class="line"></p>
+                            <div class="total">
+                            <p class="subtotal">Subtotal</p>
+                            <p class="dollar1">$250</p></div>
+                            <div class="terms">
+                            <p class="checkbox"><input type="checkbox" name="check"></p>
+                            <p class="toc"><span>I Agree With The Terms And Conditions</span></p>
+                            </div>
+                            <button type="button" class="btn btn-success">Checkout</button>
+               
+               </div>
+	  	</section>
+	  	<section class="next">
+	  		<div class="row">
+	  			<div class="col-md-1"><img src="incense.jpg" alt="image"><img src="incense.jpg" alt="image"></div>
+	  			<div class="col-md-4"><img src="incense.jpg" alt="image"></div>
+	  			<div class="col-md-1"></div>
+	  			<div class="col-md-5 details">
+	  				<p class="header">Rose Incense - 150 Gms</p>
+	  				<p class="incense-cost">Rs.</p>
+	  				<p class="incense-cost-dol">$250</p>
+	  				<p class="incense-cost-strike">$300</p>
+	  				<p class="incense-cost-save">Save $50</p>
+	  		        <p class="para">Each Pack Contains 80 Incense Incense Sticks,<br>10 Inches.</p>
+	  		        <p class="quantity"></i>Add Quantity</i></p>
+	  		        <p class="qua"><i class="fas fa-minus-circle" style="opacity: 50%;"></i><span style="padding:0 5px">1</span><i class="fas fa-plus-circle"></i></p>
+	  		        <p class="cart" text-align="center">Add To Cart</p>
+                    <button type="button" class="btn btn-success text-center">Buy Now</button>
+                    </div>
+	  			</div>
+        </section>
+  <!-----------------Similar products section starts here -------------------------->
+    <section class="similar">
+    	<div class="container row">
+                 	<h1 class="similar">Similar Products</h1>
+                 </div></section><br>
+    <section>
+           <div class="samples">
+              <div class="Products">
+                  <img src="incense.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i2.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i3.png">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i2.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i3.png">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <!----------- toggler section starts here ----------------->
+                        <div class="container course-toggler d-flex justify-content-between">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div> 
+            </div>
+    </section>
+  <!--------------------- customer reviews section start here ------------------->
+           <section class="Reviews">
+              <div class="row text-center">
+                <h1><span style="color: #126656;">Customer Reviews</span></h1>
+              </div>
+
+           </section>
+           <section>
+                  <div class="row">
+                         <div class="col-md-4">
+                                <p><span style="color: #126656; font-size: 23px">Star Rating</span></p>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                                <span style="color: #126656; font-size: 14px; padding-left: 5px;">4.1 Out Of 5</span>
+
+                                <p><span style="color: #126656; font-size: 13px; padding-left: 5px;">252 Rating And 196 Reviews</span></p>
+
+                                <p><span style="color: #126656; font-size: 12px; padding-left: 5px;">76%</span><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><span style="color: #126656; font-size: 12px; padding-left: 5px;">(98)</span></p>
+
+                                <p><span style="color: #126656; font-size: 12px; padding-left: 5px;">52%</span><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span style="color: #126656; font-size: 12px; padding-left: 5px;">(62)</span></p>
+
+                                <p><span style="color: #126656; font-size: 12px; padding-left: 5px;">36%</span><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span style="color: #126656; font-size: 12px; padding-left: 5px;">(38)</span></p>
+
+                                <p><span style="color: #126656; font-size: 12px; padding-left: 5px;">15%</span><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="far fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span style="color: #126656; font-size: 12px; padding-left: 5px;">(24)</span></p>
+
+                                <p><span style="color: #126656; font-size: 12px; padding-left: 5px;">9%</span><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 13px;"></i><i class="far fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span style="color: #126656; font-size: 12px; padding-left: 5px;">(30)</span></p>
+
+                                <p><span style="color: #126656; font-size: 14px;">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Sit ultricies<br> nibh arcu risus ridiculus. Molestie<br> ornare curabitur mauris semper arcu<br> ante mauris lorem.</span></p>
+                         </div>
+                         <div class="col-md-8">
+                            <div class="all">
+                                <div class="circle"><p class="letter">T</p></div>
+                         
+                                <div class="content">
+                                       <p class="tony">Tony Smith</p>
+                                       <p class="verify">Verified</p>
+                                       <p class="star"><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span class="date">12/11/21</span></p>
+                                       
+                                 </div>
+                                 </div>
+                                 <p class="nice">Nice Product</p>
+                                 <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ultricies nibh arcu<br> risus ridiculus. Molestie ornare curabitur mauris semper arcu ante mauris lorem.</p>
+                         <div class="all">
+                                <div class="circle"><p class="letter">T</p></div>
+                         
+                                <div class="content">
+                                       <p class="tony">Tony Smith</p>
+                                       <p class="verify">Verified</p>
+                                       <p class="star"><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span class="date">12/11/21</span></p>
+                                       
+                                 </div>
+                                 </div>
+                                 <p class="nice">Nice Product</p>
+                                 <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ultricies nibh arcu<br> risus ridiculus. Molestie ornare curabitur mauris semper arcu ante mauris lorem.</p>
+                         <div class="all">
+                                <div class="circle"><p class="letter">T</p></div>
+                         
+                                <div class="content">
+                                       <p class="tony">Tony Smith</p>
+                                       <p class="verify">Verified</p>
+                                       <p class="star"><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 13px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="fas fa-star" style="font-size: 12px;"></i><i class="far fa-star" style="font-size: 12px;"></i><span class="date">12/11/21</span></p>
+                                       
+                                 </div>
+                                 </div>
+                                 <p class="nice">Nice Product</p>
+                                 <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ultricies nibh arcu<br> risus ridiculus. Molestie ornare curabitur mauris semper arcu ante mauris lorem.</p>
+                                 <button type="button" class="btn btn-outline-success">View More</button>
+                     </div>
+       </section>
+  <!------ Recently viewed section starts here -------------------------->
+  <section class="recent">
+      <div class="container row">
+                  <h1 class="similar">Recently Viewed</h1>
+                 </div></section><br>
+    <section>
+           <div class="samples">
+              <div class="Products">
+                  <img src="incense.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i2.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i3.png">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i2.jpg">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+              <div class="Products">
+                  <img src="i3.png">
+                  <div class="product-deatils text-center">
+                      <p>Rose incense - 150 Gms</p>
+                      <p><span class="price">$250</span><span class="strike">$300</span>save<span>$50</span></p>
+                      <button class="explore-btn">Explore Now</button>
+                  </div>
+              </div>
+               <!----------- toggler section starts here ----------------->
+                        <div class="container course-toggler d-flex justify-content-between">
+                        <i class="fas fa-chevron-left"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>  
+            </div>
+    </section>
+           <section>
+                  <div class="check">
+                    <div class="top-icons">
+                      <div class="sphere"><img src="d1.png"></div>
+                      <div class="cylinder"><img src="glass.png"></div>
+                      <div class="whiteball"><img src="ball.png"></div>
+                    </div>
+                    <div class="text-center">
+                      <h2 class="info">Need More Information?<br>Checkout Features & Benefits</h2>
+                      <button type="button" class="btn btn-success">Explore Now</button>
+                      <div class="donuts">
+                         <img src="d3.png" class="d2">
+                         <img src="d2.png" class="d3">
+                      </div>
+                    </div>
+                    <div class="bottom-icons">
+                      <div class="sphere"><img src="d1.png"></div>
+                      <div class="cylinder"><img src="glass.png"></div>
+                      <div class="whiteball"><img src="ball.png"></div>
+                    </div>
+                  </div>
+            </section>
+           <!---Social media--->
+           <section>
+           <p class="social">Socials</p> 
+           <div class="socialmedia">
+           <div class="media">
+                  <span><i class="fab fa-twitter"></i></span>
+           </div>
+           <div class="media">
+                  <span><i class="fab fa-linkedin-in"></i></span>
+           </div>
+           <div class="media">
+                  <span><i class="fab fa-facebook-f"></i></span>
+           </div>
+           <div class="media">
+                  <span><i class="fab fa-chrome"></i></span>
+           </div>
+           </div>
+           </section>
+           </div>
+           <!--- Footer Section starts here--->
+           <section>
+           <div class="container-fluid">
+                  <div class="footer">
+                         <div class="row">
+                                <div class="col-md-2">
+                                       <p class="icon"></p>
+                                       <p class="incense">Incense</p>
+                                       <div class="contact">
+                                       <p class="search">Search</p>
+                                       <p class="search">Product</p>
+                                       <p class="search">About</p>
+                                       <p class="search">Contact</p>
+                                       <p class="search">FAQ<small>s</small></p>
+                                       </div>
+                                </div>
+                                <div class="col-md-3">
+                                       <p class="information">Information</p>
+                                       <p class="search">Return Policy</p>
+                                       <p class="search">Shipping Policy</p>
+                                       <p class="search">Privacy Policy</p>
+                                       <p class="search">Terms Of Service</p>
+                                </div>
+                                <div class="col-md-3">
+                                       <p>Contact</p>
+                                       <p class="search">Address : Lorem psum dolor sit<br> amet, consectetur adipiscing elit<br> ut aliquam 401522</p>
+                                       <p class="search">Email : You@Mail.com</p>
+                                       <p class="search">Contact : 26512204623</p>
+                                </div>
+                                <div class="col-md-3">
+                                       <p>Stay Connected</p>
+                                       <p class="search">Stay up-to date with the letest news and<br> updates</p>
+                                       <button type="button" class="btn btn-primary">Email</button>
+                                       <button type="button" class="btn btn-success">Subscribe</button>
+                                </div>
+                         </div>
+                         <p class="copyright">All Rights Reserved(C) Botx Automation Pvt. ltd 2021.</p>
+                  </div>
+           </div>
+
+         </section>  
+       
+       				
+
+</body>
+</html>
