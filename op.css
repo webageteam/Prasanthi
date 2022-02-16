@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two|Montserrat');
+body{
+	background-color: ##FDF5E6;
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+.head{
+	display: inline;
+
+}
+.icon{
+	margin: 10px;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+	background-color: #D3D3D3;
+}
+.incense{
+	padding-left: 16px;
+	margin-top: -47px;
+	color: #126656;
+	font-size: 28px;
+	font-family: sacramento;
+}
+.easy{
+	margin-left: 80px;
+}
+.col-md-7 .three{
+	color: #126656;
+	font-size: 33px;
+	font-style: montserrat;
+}
+.info{
+	color: #126656;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.ship{
+    color: #B87843;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.contact{
+	color: #126656;
+	font-size: 25px;
+	margin-top: 50px;
+}
+.email{
+	color: #126656;
+	border-radius: 5px;
+	border: 1px solid #126656;
+	width: 405px;
+	height: 37px;
+	padding-left: 20px;
+}
+.checkbox{
+	color: #126656;
+	accent-color: #126656;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.address{
+	color: #126656;
+	font-size: 25px;
+	margin-top: 25px;
+}
+.first{
+	color: #126656;
+	width: 200px;
+	height: 37px;
+	border: 1px solid #126656;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.last{
+	color: #126656;
+	width: 200px;
+	height: 37px;
+	border: 1px solid #126656;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.Address{
+	color: #126656;
+	width: 405px;
+	height: 37px;
+	border: 1px solid #126656;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+::placeholder{
+	color: #126656;
+}
+.form: hover{
+    color: #126656;
+}
+.dropdown{
+	color: #126656;
+	border-radius:5px;
+    border: 1px solid #126656;
+    height: 37px;
+    width: 140px;
+    margin-top: 20px;
+	padding-left: 20px;
+}
+.zip{
+	color: #126656;
+	width: 120px;
+	height: 37px;
+	border: 1px solid #126656;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+.btn-success{
+	width: 200px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius: 50px;
+	border: 1px solid #126656;
+}
+.col-md-5 .line{
+	width: 2px;
+	height: 300px;
+	border: 2px solid #126656;
+	border-right: 1px;
+	margin-top: 25px;
+	margin-left: -60px;
+}
+.select1{
+	height: 55px;
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	position: relative;
+}
+.select1 img{
+	height: 55px;
+	width: 70px;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+	box-sizing: border-box;
+	position: absolute;
+}
+.Rose{
+	color: #126656;
+	font-size: 13px;
+	margin-left: 100px;
+	margin-top: -40px;
+	position: absolute;
+}
+.underline{
+	width: 310px;
+	margin-top: 17px;
+	border: 1px solid #126656;
+	margin-left: 20px;
+}
+.cuppon{
+	color: #126656;
+	width: 210px;
+	height: 37px;
+	border: 1px solid #126656;
+	border-radius: 5px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 13px;
+
+}
+.col-md-5 .btn-success{
+	width: 90px;
+	margin-left: 240px;
+	margin-top: -60px;
+	border-radius: 5px;
+	height: 37px;
+	background-color: #B9DBCB;
+	border: 1px solid #B9DBCB;
+}
+.underline1{
+	margin-top: 0px;
+	width: 310px;
+	border: 1px solid #126656;
+	margin-left: 20px;
+}
+.total{
+	color: #126656;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.cost{
+	color: #126656;
+	margin-left: 200px;
+	font-size: 14px;
+}
+.line1{
+	margin-top: -20px;
+}
+.cost1{
+	margin-left: 230px;
+}
+.btn-outline-success{
+	width: 190px;
+	margin-left: 85px;
+	border-radius: 50px;
+}
+.copy{
+	margin-top: 73px;
+	background-color: #B9DBCB;
+	width: 100%;
+	height: 100px;
+}
+.copyright{
+	color: #126656;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 37px;
+}
